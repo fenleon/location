@@ -14,7 +14,7 @@ and gets you there in one tap.
 
 The Light Phone's GPS receiver keeps sampling while location services are on,
 which quietly drains the battery even when nothing is using your location. The
-fix isn't a smarter app — it's turning location off when you're not using it.
+fix, without Light's help, is turning location off when you're not using it.
 This tool puts that switch one toolbox-tap away instead of buried in settings.
 
 ## Building
