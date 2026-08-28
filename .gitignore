@@ -1,0 +1,12 @@
+# Android / Gradle
+.gradle/
+build/
+local.properties
+.kotlin/
+
+# Emulator verification captures (not part of the tool)
+screenshots/
+
+# IntelliJ/Android Studio
+.idea/
+*.iml

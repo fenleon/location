@@ -1,0 +1,17 @@
+[versions]
+agp = "8.12.3"
+kotlin = "2.3.20"
+sdk = "0.1.0"
+
+[libraries]
+# Consumed from the included ../light-sdk build via dependencySubstitution;
+# versions must match light-sdk/gradle.properties sdkGroup/sdkVersion.
+sdk-client = { module = "com.thelightphone:sdk-client", version.ref = "sdk" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version = "2.3.6" }
+# Resolved from the included ../light-sdk build (no version).
+light-sdk = { id = "com.thelightphone.light-sdk" }

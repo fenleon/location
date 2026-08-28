@@ -1,0 +1,17 @@
+[tool]
+id = "com.lightphone.location"
+label = "Location"
+versionCode = 1
+versionName = "0.1.0"
+# Hotspot-style settings row: "Use Location" with a toggle that reflects the
+# real framework state (subtext On/Off). The tool cannot flip location on/off
+# (WRITE_SECURE_SETTINGS is system-only) — tapping the row opens the AOSP
+# location-services screen (Settings.ACTION_LOCATION_SOURCE_SETTINGS), where
+# the master switch lives; the toggle re-reads on return. The state comes from
+# the SDK client's lightContext.locationEnabled (LocationManager.isLocationEnabled
+# from the tool's own process — permission-free, works on emulator and real
+# device; see LIGHT-SDK-PATCHES.md). serverPackage = com.lightos on a real LP3
+# (the platform hosts the SDK service; passes pattern); flip to
+# com.thelightphone.sdk.emulator when testing on the emulator.
+serverPackage = "com.lightos"
+orientation = "portrait"
