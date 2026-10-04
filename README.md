@@ -1,5 +1,10 @@
 # Location
 
+<p align="center"><a href="https://ko-fi.com/fenleon">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="art/coffee-hand-filled-alpha-white-steam.png"><img src="art/coffee-hand-filled-alpha-white.png" alt="Hand holding Coffee" height="50" style="vertical-align: middle;"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="art/buy-me-a-coffee-alpha-white.png"><img src="art/buy-me-a-coffee-alpha-black.png" alt="Buy Me A Coffee" height="40" style="vertical-align: middle;"></picture>
+  <img src="art/ok-hand-filled-alpha-white.png" alt="OK Hand" height="50" style="vertical-align: middle;"></a></p>
+
 A one-tap master switch for the Light Phone III's location services.
 
 ## What it does
@@ -30,3 +35,5 @@ included build.
 On a real device the tool's `serverPackage` is `com.lightos` (the platform's
 SDK service); flip it to `com.thelightphone.sdk.emulator` when testing on the
 LightOS emulator.
+
+<p align="center">Support my work by leaving me a <a href="https://ko-fi.com/fenleon">tip</a> or <a href="https://github.com/sponsors/fenleon">sponsoring me</a>. A little goes a long way.</p>
